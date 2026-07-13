@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data caches & Temporary Uploads
+data_cache/*.parquet
+data_cache/*.pdf
+data_cache/projects.json
+temp_uploads/*
+!temp_uploads/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS specific files
+.DS_Store
+Thumbs.db

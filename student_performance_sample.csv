@@ -1,0 +1,204 @@
+StudentID,Gender,Age,Major,StudyHoursPerWeek,AttendanceRate,MidtermScore,FinalScore,Passed,EnrollmentDate
+1001,Female,25,Computer Science,27.8,70.45,84.3,84.7,Yes,2025-09-18
+1002,Male,23,Physics,27.3,68.85,44.8,43.6,No,2025-09-04
+1003,Male,25,Computer Science,18.8,94.47,95.3,97.8,Yes,2025-09-14
+1004,Female,22,Business Analytics,8.0,86.32,47.4,54.0,No,2025-09-13
+1005,Male,19,Physics,8.8,62.75,79.4,91.5,Yes,2025-09-29
+1006,Male,18,Data Science,27.4,90.12,73.2,83.3,Yes,2025-09-12
+1007,Male,26,Computer Science,5.6,79.46,83.7,100,Yes,2025-09-07
+1008,Female,21,Mathematics,25.4,90.87,85.6,100,Yes,2025-09-18
+1009,Female,22,Physics,14.0,65.63,77.5,85.0,Yes,2025-09-16
+1010,Male,20,Physics,23.9,86.03,94.6,100,Yes,2025-09-14
+1011,Female,26,,11.2,96.22,55.5,57.4,No,2025-10-01
+1012,Male,23,Data Science,5.6,67.2,80.4,91.1,Yes,2025-09-26
+1013,Male,26,Computer Science,13.1,95.55,95.0,95.4,Yes,2025-09-09
+1014,Male,24,Mathematics,9.0,63.11,86.4,92.7,Yes,2025-09-10
+1015,Male,18,Computer Science,12.3,81.24,62.9,69.3,Yes,2025-09-11
+1016,Male,18,Computer Science,9.8,80.49,86.0,93.1,Yes,2025-09-16
+1017,Female,20,Business Analytics,14.0,85.47,82.3,94.4,Yes,2025-09-07
+1018,Male,23,Business Analytics,9.3,68.9,55.1,52.6,No,2025-09-17
+1019,Male,19,Data Science,28.1,88.52,87.0,92.6,Yes,2025-09-17
+1020,Male,22,Physics,17.3,71.34,49.9,43.1,No,2025-09-21
+1021,Female,25,Business Analytics,20.5,68.64,82.4,90.3,Yes,2025-09-11
+1022,Male,26,Mathematics,14.8,70.42,57.1,56.6,No,2025-09-09
+1023,Male,26,Mathematics,26.2,68.17,67.4,71.4,Yes,2025-09-20
+1024,Male,22,Data Science,23.6,74.92,55.8,52.8,No,2025-09-14
+1025,Male,19,Computer Science,26.3,88.62,83.6,93.9,Yes,2025-09-17
+1026,Female,18,Physics,12.2,97.32,84.7,88.3,Yes,2025-09-11
+1027,Male,26,Mathematics,14.9,86.81,67.6,77.1,Yes,2025-09-19
+1028,Female,18,Computer Science,9.3,86.24,38.1,46.0,No,2025-09-12
+1029,Male,25,,26.8,69.25,69.5,81.4,Yes,2025-09-28
+1030,Female,24,Business Analytics,9.6,94.36,65.3,75.1,Yes,2025-09-16
+1031,Female,26,Data Science,11.9,71.07,55.6,62.3,Yes,2025-09-01
+1032,Male,22,Computer Science,23.7,99.71,46.0,50.4,No,2025-09-18
+1033,Male,23,Physics,5.6,69.63,74.8,72.5,Yes,2025-09-02
+1034,Male,24,Business Analytics,23.7,74.71,63.8,65.6,Yes,2025-09-15
+1035,Male,25,Business Analytics,,61.55,73.6,89.1,Yes,2025-09-17
+1036,Female,25,Physics,21.2,71.95,65.6,79.0,Yes,2025-09-16
+1037,Female,19,Mathematics,21.9,84.37,88.6,100,Yes,2025-09-21
+1038,Female,23,Mathematics,28.9,63.0,53.2,50.5,No,2025-09-04
+1039,Male,22,Data Science,7.2,77.63,47.2,49.2,No,2025-09-21
+1040,Male,25,Computer Science,27.0,98.53,68.1,73.8,Yes,2025-09-17
+1041,Female,18,Computer Science,29.1,81.8,69.2,84.5,Yes,2025-09-06
+1042,Female,26,Data Science,22.3,83.34,46.7,49.1,No,2025-09-26
+1043,Male,26,Physics,14.4,66.39,90.4,95.3,Yes,2025-09-06
+1044,Male,24,Business Analytics,5.1,74.21,87.8,100,Yes,2025-09-10
+1045,Male,26,Physics,14.3,90.18,65.9,75.0,Yes,2025-09-06
+1046,Male,19,Computer Science,18.2,64.16,73.0,84.1,Yes,2025-09-08
+1047,Female,23,Data Science,21.8,71.12,88.0,100,Yes,2025-09-07
+1048,Male,24,Mathematics,23.4,75.26,45.5,46.4,No,2025-09-16
+1049,Female,23,Mathematics,28.6,70.93,92.1,96.9,Yes,2025-09-29
+1050,Male,26,Computer Science,24.8,77.85,85.4,87.9,Yes,2025-09-03
+1051,Female,23,Computer Science,21.3,88.19,71.6,80.3,Yes,2025-09-13
+1052,Female,19,Business Analytics,13.4,75.03,71.6,76.7,Yes,2025-09-13
+1053,Female,18,Mathematics,15.7,75.07,77.6,85.0,Yes,2025-09-04
+1054,Female,26,Data Science,,97.17,87.7,97.1,Yes,2025-09-16
+1055,Male,20,Physics,13.5,83.72,80.7,89.6,Yes,2025-09-28
+1056,Female,21,Mathematics,19.7,92.02,54.1,54.1,No,2025-09-05
+1057,Male,18,Computer Science,9.9,80.67,42.9,50.8,No,2025-09-23
+1058,Male,24,Computer Science,13.8,75.78,44.9,52.5,No,2025-09-20
+1059,Male,26,Computer Science,5.8,91.39,48.1,52.7,No,2025-10-01
+1060,Male,19,Computer Science,10.8,84.59,74.8,91.4,Yes,2025-09-29
+1061,Female,18,,28.7,66.67,87.5,92.3,Yes,2025-09-05
+1062,Female,23,,19.3,83.87,93.0,95.6,Yes,2025-09-29
+1063,Female,23,Business Analytics,8.6,99.2,96.9,100,Yes,2025-09-22
+1064,Male,22,Mathematics,28.1,69.99,62.7,73.0,Yes,2025-09-23
+1065,Female,20,Physics,17.1,73.59,79.6,86.9,Yes,2025-10-01
+1066,Female,26,Computer Science,29.5,82.14,42.2,47.5,No,2025-09-17
+1067,Female,25,Computer Science,28.5,63.77,87.5,97.4,Yes,2025-09-28
+1068,Male,25,Physics,29.2,93.72,43.2,39.3,No,2025-09-19
+1069,Male,25,Computer Science,11.9,65.56,78.5,96.2,Yes,2025-09-18
+1070,Male,19,Physics,5.3,83.19,94.3,100,Yes,2025-09-28
+1071,Male,21,Computer Science,5.1,93.77,94.7,100,Yes,2025-09-29
+1072,Male,25,Data Science,24.4,67.21,71.9,83.0,Yes,2025-09-20
+1073,Male,22,Business Analytics,,96.67,77.5,84.1,Yes,2025-09-08
+1074,Male,21,Physics,9.9,77.1,82.1,89.5,Yes,2025-09-23
+1075,Male,22,Computer Science,23.3,88.61,88.5,90.6,Yes,2025-09-02
+1076,Female,23,Mathematics,10.0,82.17,71.8,71.1,Yes,2025-09-21
+1077,Female,21,Data Science,15.4,87.65,91.0,100,Yes,2025-09-12
+1078,Female,24,Mathematics,20.0,93.11,74.3,78.8,Yes,2025-09-02
+1079,Female,20,Mathematics,15.0,62.84,82.7,93.2,Yes,2025-09-05
+1080,Male,20,Business Analytics,21.1,71.42,69.1,80.0,Yes,2025-10-01
+1081,Male,20,Mathematics,29.1,76.27,41.3,48.5,No,2025-09-14
+1082,Female,23,Computer Science,9.1,71.38,94.5,100,Yes,2025-09-06
+1083,Female,25,Computer Science,6.9,87.73,43.1,40.2,No,2025-09-23
+1084,Male,20,Data Science,12.2,68.03,62.8,63.4,Yes,2025-09-30
+1085,Male,24,Physics,10.7,76.11,59.7,63.4,Yes,2025-09-20
+1086,Female,23,Computer Science,15.6,66.16,47.3,57.3,No,2025-09-21
+1087,Female,26,Data Science,13.2,90.52,38.2,45.7,No,2025-09-18
+1088,Female,21,Business Analytics,26.3,65.49,50.2,56.8,No,2025-10-01
+1089,Female,22,Data Science,21.4,79.08,53.2,64.2,Yes,2025-09-01
+1090,Female,25,Data Science,17.5,74.73,54.5,51.5,No,2025-09-07
+1091,Female,25,Physics,23.2,90.66,82.7,94.6,Yes,2025-09-03
+1092,Female,24,Mathematics,24.0,82.51,47.9,57.6,No,2025-09-05
+1093,Male,18,Computer Science,20.4,61.26,94.6,90.8,Yes,2025-09-08
+1094,Female,20,Business Analytics,22.0,73.8,46.2,58.2,No,2025-09-04
+1095,Female,22,Computer Science,26.6,87.84,60.1,63.5,Yes,2025-09-06
+1096,Female,20,Mathematics,14.8,90.57,63.9,72.2,Yes,2025-09-05
+1097,Female,22,Mathematics,28.3,92.02,54.3,56.7,No,2025-09-22
+1098,Female,,Data Science,8.7,85.73,46.5,46.7,No,2025-09-23
+1099,Male,24,Computer Science,,62.27,56.6,58.5,No,2025-09-08
+1100,Male,23,Computer Science,22.3,66.2,59.7,63.9,Yes,2025-09-13
+1101,Female,26,,13.7,93.06,71.2,86.6,Yes,2025-09-09
+1102,Male,22,Physics,25.9,65.96,78.5,95.0,Yes,2025-09-24
+1103,Male,26,Mathematics,22.9,85.84,84.4,87.3,Yes,2025-09-07
+1104,Male,24,Physics,21.7,72.88,87.0,91.3,Yes,2025-09-12
+1105,Female,21,Physics,19.4,97.48,54.5,60.3,Yes,2025-09-04
+1106,Female,19,Business Analytics,16.9,96.68,51.6,60.8,Yes,2025-09-04
+1107,Female,25,Computer Science,14.6,60.28,67.6,78.1,Yes,2025-09-09
+1108,Male,21,Mathematics,,68.5,89.7,96.8,Yes,2025-09-19
+1109,Female,20,Computer Science,,70.96,48.3,56.0,No,2025-09-29
+1110,Female,23,Mathematics,10.1,92.45,62.5,72.7,Yes,2025-09-04
+1111,Female,18,Business Analytics,22.3,92.54,91.1,96.3,Yes,2025-09-22
+1112,Male,26,Mathematics,23.9,80.36,39.9,45.1,No,2025-09-14
+1113,Female,24,Business Analytics,14.5,80.18,79.7,78.7,Yes,2025-10-01
+1114,Male,21,Physics,26.0,69.72,49.2,49.2,No,2025-09-24
+1115,Male,22,Physics,18.5,85.25,63.7,69.7,Yes,2025-09-08
+1116,Female,21,Business Analytics,18.6,87.66,74.6,88.0,Yes,2025-09-26
+1117,Female,18,Computer Science,12.1,89.62,91.1,93.2,Yes,2025-09-23
+1118,Male,19,Computer Science,9.0,85.73,89.7,92.4,Yes,2025-09-23
+1119,Male,21,Mathematics,5.3,95.03,56.2,59.6,No,2025-09-30
+1120,Female,20,,11.5,96.9,45.8,42.9,No,2025-09-28
+1121,Male,21,Physics,10.8,97.01,88.0,91.1,Yes,2025-09-01
+1122,Male,21,Computer Science,22.3,60.46,96.1,100,Yes,2025-09-02
+1123,Male,22,Computer Science,13.4,62.82,65.8,78.6,Yes,2025-09-05
+1124,Male,25,,7.3,76.54,70.9,82.7,Yes,2025-09-12
+1125,Male,24,Mathematics,7.0,96.34,59.8,62.5,Yes,2025-09-30
+1126,Female,20,Mathematics,20.1,79.47,48.4,50.0,No,2025-09-08
+1127,Female,22,Business Analytics,12.9,69.72,57.0,71.3,Yes,2025-09-06
+1128,Male,24,Mathematics,13.6,84.35,86.1,96.7,Yes,2025-09-24
+1129,Female,22,Computer Science,8.1,73.13,90.2,96.6,Yes,2025-09-10
+1130,Male,26,Data Science,19.9,93.41,69.2,82.7,Yes,2025-09-05
+1131,Male,24,Physics,11.7,87.61,56.0,56.6,No,2025-09-19
+1132,Female,21,Physics,10.1,72.19,36.4,36.5,No,2025-09-09
+1133,Female,19,Computer Science,22.2,85.33,74.7,81.8,Yes,2025-09-20
+1134,Male,21,Computer Science,27.1,73.59,45.7,56.3,No,2025-09-25
+1135,Male,21,Mathematics,10.8,74.79,47.0,56.2,No,2025-09-03
+1136,Male,24,Business Analytics,26.2,87.55,90.2,92.2,Yes,2025-09-11
+1137,Female,18,Physics,22.5,76.26,68.7,73.8,Yes,2025-09-11
+1138,Male,,Data Science,27.1,88.7,94.7,100,Yes,2025-09-28
+1139,Female,23,Mathematics,11.8,86.8,44.6,42.3,No,2025-09-25
+1140,Female,21,Data Science,26.2,78.61,62.2,71.7,Yes,2025-09-17
+1141,Male,26,Physics,23.6,91.15,56.1,56.0,No,2025-09-22
+1142,Male,24,Physics,5.4,72.82,56.6,68.7,Yes,2025-09-29
+1143,Female,22,Computer Science,17.0,61.96,93.9,100,Yes,2025-09-20
+1144,Male,25,Physics,8.8,69.14,80.4,94.3,Yes,2025-09-29
+1145,Female,22,,,83.73,72.6,74.2,Yes,2025-09-01
+1146,Female,21,Physics,21.6,81.26,52.5,59.8,No,2025-09-14
+1147,Female,19,Physics,28.6,89.69,69.8,87.1,Yes,2025-09-04
+1148,Female,24,Mathematics,26.3,83.25,48.8,62.6,Yes,2025-09-17
+1149,Male,22,Computer Science,27.0,87.28,58.0,66.0,Yes,2025-09-15
+1150,Male,21,Business Analytics,,69.15,68.7,68.2,Yes,2025-09-06
+1151,Male,23,Business Analytics,16.1,93.53,75.7,89.1,Yes,2025-09-07
+1152,Female,24,Computer Science,24.9,62.05,43.5,43.4,No,2025-09-30
+1153,Male,23,Mathematics,,93.71,55.7,68.6,Yes,2025-09-01
+1154,Female,24,Data Science,17.9,91.39,45.5,42.8,No,2025-09-20
+1155,Male,20,Physics,26.2,93.38,66.0,83.2,Yes,2025-09-26
+1156,Male,18,Mathematics,28.2,60.02,47.3,54.3,No,2025-09-23
+1157,Male,18,Computer Science,23.6,65.35,65.5,71.2,Yes,2025-09-01
+1158,Male,18,Mathematics,20.6,65.37,54.5,54.7,No,2025-09-16
+1159,Female,21,Data Science,,77.82,45.3,55.3,No,2025-09-15
+1160,Male,24,Physics,24.7,87.97,74.6,86.1,Yes,2025-09-16
+1161,Male,20,Mathematics,10.8,75.04,95.4,100,Yes,2025-09-20
+1162,Male,,Business Analytics,8.9,98.46,94.2,98.7,Yes,2025-09-01
+1163,Male,25,Mathematics,16.6,64.28,68.2,78.5,Yes,2025-09-03
+1164,Male,25,Mathematics,19.8,75.71,69.7,70.3,Yes,2025-09-27
+1165,Female,25,Computer Science,,78.09,90.2,100,Yes,2025-09-20
+1166,Female,24,Business Analytics,22.7,80.44,51.4,61.0,Yes,2025-09-18
+1167,Male,23,Data Science,16.0,80.24,54.0,47.4,No,2025-09-22
+1168,Male,22,Business Analytics,22.7,71.18,81.0,84.8,Yes,2025-09-30
+1169,Male,21,Business Analytics,,85.18,63.8,76.2,Yes,2025-09-24
+1170,Female,22,Data Science,,89.56,79.0,83.9,Yes,2025-09-22
+1171,Male,18,Data Science,17.1,73.13,48.4,54.9,No,2025-09-27
+1172,Male,25,Computer Science,17.4,91.65,76.9,84.0,Yes,2025-09-17
+1173,Female,21,Computer Science,24.8,90.1,50.0,59.6,No,2025-09-10
+1174,Female,22,Business Analytics,30.0,84.58,52.5,45.5,No,2025-09-11
+1175,Male,23,Data Science,6.8,89.3,68.8,84.8,Yes,2025-09-09
+1176,Male,23,Computer Science,13.4,78.59,51.6,57.8,No,2025-09-22
+1177,Male,22,Business Analytics,15.9,85.88,42.3,53.5,No,2025-09-25
+1178,Female,25,Business Analytics,15.5,95.09,75.3,73.6,Yes,2025-10-01
+1179,Female,24,,21.0,79.13,47.8,44.4,No,2025-10-01
+1180,Female,22,Business Analytics,10.8,98.15,75.2,85.8,Yes,2025-09-28
+1181,Male,20,Computer Science,13.2,81.26,58.6,61.9,Yes,2025-09-05
+1182,Female,26,,19.2,83.5,60.6,61.0,Yes,2025-09-16
+1183,Male,22,Physics,13.6,76.7,91.3,93.7,Yes,2025-09-01
+1184,Male,23,Physics,6.9,80.62,77.4,86.4,Yes,2025-09-29
+1185,Male,18,Physics,5.7,83.32,65.2,74.1,Yes,2025-09-23
+1186,Female,19,Business Analytics,14.7,99.13,42.9,39.0,No,2025-10-01
+1187,Female,20,Data Science,24.7,74.71,49.7,56.4,No,2025-09-07
+1188,Male,19,Computer Science,21.0,65.54,73.2,83.5,Yes,2025-09-11
+1189,Female,23,Business Analytics,23.2,93.99,79.4,86.8,Yes,2025-09-15
+1190,Male,20,Business Analytics,17.2,72.25,67.4,71.7,Yes,2025-09-21
+1191,Female,21,Physics,28.2,92.36,55.8,63.0,Yes,2025-09-26
+1192,Female,25,Computer Science,14.0,81.2,87.2,96.5,Yes,2025-09-26
+1193,Female,18,Business Analytics,27.9,77.27,56.2,55.7,No,2025-09-13
+1194,Male,20,Computer Science,19.5,79.48,77.6,85.8,Yes,2025-09-08
+1195,Male,22,Business Analytics,9.3,90.05,59.9,62.4,Yes,2025-09-21
+1196,Male,24,Physics,23.4,68.7,67.4,67.0,Yes,2025-09-03
+1197,Male,20,Computer Science,9.5,69.58,72.2,84.8,Yes,2025-09-25
+1198,Male,18,Computer Science,,73.64,69.6,73.5,Yes,2025-09-07
+1199,Male,18,Computer Science,9.0,95.42,66.3,73.6,Yes,2025-09-16
+1200,Male,21,Business Analytics,15.6,82.47,88.0,100,Yes,2025-09-13
+1155,Male,20,Physics,26.2,93.38,66.0,83.2,Yes,2025-09-26
+1193,Female,18,Business Analytics,27.9,77.27,56.2,55.7,No,2025-09-13
+1080,Male,20,Business Analytics,21.1,71.42,69.1,80.0,Yes,2025-10-01
