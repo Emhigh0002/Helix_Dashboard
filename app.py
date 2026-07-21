@@ -15,7 +15,7 @@ import utils
 
 # Set Page Config
 st.set_page_config(
-    page_title="Helix Analytics Hub",
+    page_title="Emhigh_Analytic",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -105,7 +105,7 @@ def main():
     projects = utils.load_projects_metadata()
     
     # Sidebar Logo and Navigation Title
-    st.sidebar.markdown("<h2 class='gradient-title' style='text-align: center;'>🧬 Helix Dashboard</h2>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h2 class='gradient-title' style='text-align: center;'>🧬 Emhigh_Analytic</h2>", unsafe_allow_html=True)
     st.sidebar.markdown("---")
     
     # --- Project Management Section ---
@@ -183,7 +183,7 @@ def main():
     if st.session_state.df is None:
         # Prompt user to initialize/select project
         st.markdown("<div class='glass-card' style='text-align: center; margin-top: 50px;'>", unsafe_allow_html=True)
-        st.markdown("<h1 class='gradient-title'>🧬 Welcome to Helix Analytics Dashboard</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 class='gradient-title'>🧬 Welcome to Emhigh_Analytic</h1>", unsafe_allow_html=True)
         st.markdown("<p style='font-size:18px; color:#94A3B8;'>Upload and explore datasets, clean outliers, compute statistical models, run AutoML predictors, and compile downloadable reports in a modern, dark-themed workspace.</p>", unsafe_allow_html=True)
         st.markdown("<h4 style='color:#F1F5F9;'>To get started, please select or create a Project in the sidebar.</h4>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)

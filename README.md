@@ -1,5 +1,5 @@
 ---
-title: Helix Analytics Hub
+title: Emhigh_Analytic
 emoji: 🧬
 colorFrom: indigo
 colorTo: pink
@@ -9,9 +9,9 @@ app_file: app.py
 pinned: false
 ---
 
-# 🧬 Helix Analytics Hub
+# 🧬 Emhigh_Analytic
 
-Helix Analytics Hub is a premium, glassmorphic dark-themed data analytics dashboard built with Python and Streamlit. It provides users with automated data cleaning, interactive visualizations, statistical hypothesis testing, one-click AutoML, and executive PDF summary report generation.
+Emhigh_Analytic is a premium, glassmorphic dark-themed data analytics dashboard built with Python and Streamlit. It provides users with automated data cleaning, interactive visualizations, statistical hypothesis testing, one-click AutoML, and executive PDF summary report generation.
 
 ## 🚀 Key Features
 
