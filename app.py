@@ -711,7 +711,7 @@ def main():
                             x=class_labels,
                             y=class_labels,
                             template="plotly_dark",
-                            colorscale="Blues"
+                            color_continuous_scale="Blues"
                         )
                         st.plotly_chart(fig_cm, use_container_width=True)
                 else:
