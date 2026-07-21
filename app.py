@@ -373,31 +373,60 @@ def main():
         
         with col_ctrl:
             st.markdown("<div class='glass-card'><h4>Plot Configuration</h4></div>", unsafe_allow_html=True)
-            plot_type = st.selectbox("Plot Type", ["Histogram", "Box Plot", "Scatter Plot", "Bar Chart", "Line Chart", "Pie Chart", "Violin Plot"])
+            plot_type = st.selectbox("Plot Type", [
+                "Histogram", "Box Plot", "Scatter Plot", "Bar Chart", 
+                "Line Chart", "Pie Chart", "Violin Plot", "3D Scatter Plot", 
+                "Area Chart", "Sunburst Chart", "Scatter Matrix (SPLOM)", "Correlation Heatmap"
+            ])
             
             # Form variables dynamically
             cols = df.columns.tolist()
             num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
             
-            x_col = st.selectbox("X Axis Column", options=cols)
-            
+            x_col = None
             y_col = None
-            if plot_type in ["Box Plot", "Scatter Plot", "Line Chart", "Violin Plot", "Bar Chart", "Pie Chart"]:
+            z_col = None
+            color_col = None
+            size_col = None
+            bins = 30
+            path_cols = []
+            splom_cols = []
+            corr_cols = []
+            corr_metric = "pearson"
+            
+            if plot_type not in ["Sunburst Chart", "Scatter Matrix (SPLOM)", "Correlation Heatmap"]:
+                x_col = st.selectbox("X Axis Column", options=cols)
+                
+            if plot_type in ["Box Plot", "Scatter Plot", "Line Chart", "Violin Plot", "Bar Chart", "Pie Chart", "3D Scatter Plot", "Area Chart"]:
                 y_opts = ["None"] + cols if plot_type in ["Bar Chart", "Pie Chart"] else cols
                 y_select = st.selectbox("Y Axis Column", options=y_opts)
                 y_col = None if y_select == "None" else y_select
                 
-            color_col = st.selectbox("Color Legend Grouping (Optional)", options=["None"] + cols)
-            color_col = None if color_col == "None" else color_col
-            
-            size_col = None
-            if plot_type == "Scatter Plot":
+            if plot_type == "3D Scatter Plot":
+                z_col = st.selectbox("Z Axis Column", options=num_cols)
+                
+            if plot_type in ["Histogram", "Box Plot", "Scatter Plot", "Bar Chart", "Line Chart", "Violin Plot", "3D Scatter Plot", "Area Chart", "Scatter Matrix (SPLOM)"]:
+                color_col = st.selectbox("Color Legend Grouping (Optional)", options=["None"] + cols)
+                color_col = None if color_col == "None" else color_col
+                
+            if plot_type in ["Scatter Plot", "3D Scatter Plot"]:
                 size_select = st.selectbox("Marker Size Column (Optional)", options=["None"] + num_cols)
                 size_col = None if size_select == "None" else size_select
                 
-            bins = 30
             if plot_type == "Histogram":
                 bins = st.slider("Bins count", min_value=5, max_value=100, value=30)
+                
+            if plot_type == "Sunburst Chart":
+                path_cols = st.multiselect("Hierarchy Path (Categorical columns in order)", options=[c for c in cols if c not in num_cols], default=[cols[1]] if len(cols) > 1 else [])
+                y_select = st.selectbox("Values Column (Optional, Numeric)", options=["None"] + num_cols)
+                y_col = None if y_select == "None" else y_select
+                
+            if plot_type == "Scatter Matrix (SPLOM)":
+                splom_cols = st.multiselect("Select Dimensions to Plot", options=num_cols, default=num_cols[:4] if len(num_cols) >= 4 else num_cols)
+                
+            if plot_type == "Correlation Heatmap":
+                corr_cols = st.multiselect("Columns to Correlate", options=num_cols, default=num_cols)
+                corr_metric = st.selectbox("Correlation Metric", ["pearson", "spearman"])
                 
         with col_chart:
             # Build Plotly Figure
@@ -423,6 +452,32 @@ def main():
                     fig = eda.plot_pie(df, names_col=x_col, values_col=y_col)
                 elif plot_type == "Violin Plot":
                     fig = eda.plot_violin(df, y_col=x_col if not y_col else y_col, x_col=x_col if y_col else None, color_col=color_col)
+                elif plot_type == "3D Scatter Plot":
+                    if not y_col or not z_col:
+                        st.error("3D Scatter plot requires both Y-Axis and Z-Axis columns.")
+                    else:
+                        fig = eda.plot_3d_scatter(df, x_col, y_col, z_col, color_col, size_col)
+                elif plot_type == "Area Chart":
+                    if not y_col:
+                        st.error("Area chart requires a Y-Axis column.")
+                    else:
+                        fig = eda.plot_area(df, x_col, y_col, color_col)
+                elif plot_type == "Sunburst Chart":
+                    if not path_cols:
+                        st.warning("Please select at least one hierarchy column.")
+                    else:
+                        fig = eda.plot_sunburst(df, path_cols, y_col)
+                elif plot_type == "Scatter Matrix (SPLOM)":
+                    if not splom_cols:
+                        st.warning("Please select at least one dimension.")
+                    else:
+                        fig = eda.plot_splom(df, splom_cols, color_col)
+                elif plot_type == "Correlation Heatmap":
+                    if not corr_cols:
+                        st.warning("Please select at least one column to correlate.")
+                    else:
+                        corr_matrix = eda.calculate_correlations(df[corr_cols], method=corr_metric)
+                        fig = eda.plot_heatmap(corr_matrix)
             except Exception as e:
                 st.error(f"Error plotting chart: {e}")
                 

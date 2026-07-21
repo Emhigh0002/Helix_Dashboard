@@ -245,3 +245,77 @@ def plot_heatmap(corr_matrix: pd.DataFrame) -> go.Figure:
         annotation.font.color = 'black' if abs(float(annotation.text)) > 0.4 else 'white'
         annotation.font.size = 10
     return fig
+
+def plot_3d_scatter(df: pd.DataFrame, x_col: str, y_col: str, z_col: str, color_col: str = None, size_col: str = None) -> go.Figure:
+    """Plot an interactive 3D scatter plot."""
+    fig = px.scatter_3d(
+        df,
+        x=x_col,
+        y=y_col,
+        z=z_col,
+        color=color_col,
+        size=size_col,
+        template="plotly_dark",
+        color_discrete_sequence=px.colors.qualitative.Safe
+    )
+    fig.update_layout(
+        margin=dict(l=20, r=20, t=20, b=20),
+        paper_bgcolor='rgba(0,0,0,0)',
+        scene=dict(
+            xaxis=dict(backgroundcolor="rgba(0,0,0,0)"),
+            yaxis=dict(backgroundcolor="rgba(0,0,0,0)"),
+            zaxis=dict(backgroundcolor="rgba(0,0,0,0)")
+        )
+    )
+    return fig
+
+def plot_area(df: pd.DataFrame, x_col: str, y_col: str, color_col: str = None) -> go.Figure:
+    """Plot an interactive area chart."""
+    fig = px.area(
+        df,
+        x=x_col,
+        y=y_col,
+        color=color_col,
+        template="plotly_dark",
+        color_discrete_sequence=px.colors.qualitative.Safe
+    )
+    fig.update_layout(
+        margin=dict(l=40, r=40, t=40, b=40),
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)'
+    )
+    return fig
+
+def plot_sunburst(df: pd.DataFrame, path_cols: list[str], values_col: str = None) -> go.Figure:
+    """Plot an interactive Sunburst chart."""
+    fig = px.sunburst(
+        df,
+        path=path_cols,
+        values=values_col,
+        template="plotly_dark",
+        color_discrete_sequence=px.colors.qualitative.Safe
+    )
+    fig.update_layout(
+        margin=dict(l=20, r=20, t=20, b=20),
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)'
+    )
+    return fig
+
+def plot_splom(df: pd.DataFrame, dimensions: list[str], color_col: str = None) -> go.Figure:
+    """Plot a Scatter Plot Matrix (SPLOM)."""
+    fig = px.scatter_matrix(
+        df,
+        dimensions=dimensions,
+        color=color_col,
+        template="plotly_dark",
+        color_discrete_sequence=px.colors.qualitative.Safe
+    )
+    fig.update_layout(
+        margin=dict(l=40, r=40, t=40, b=40),
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)'
+    )
+    fig.update_traces(diagonal_visible=False)
+    return fig
+
